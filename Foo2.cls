@@ -17,7 +17,7 @@ public class Foo2 {
             };
             String condition =
                         'OR (Parent_Entitlement__r.Product__r.cpq_Downstream_Product_Type__c = :hardware ' +
-                            'AND Parent_Entitlement__r.le_License_Number__c IN :licenseNumbers)) ' +
+                            'AND Parent_Entitlement__r.le_License_Number__c IN :xxx)) ' +
                     'AND Subscription__r.cpq_Subscription_Fully_Renewed__c = FALSE ' +
                     'AND Subscription__r.SBQQ__ChargeType__c = :recurring ' +
                     'AND Subscription__r.SBQQ__RenewalQuantity__c > 0 ' +
